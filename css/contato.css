@@ -1,0 +1,85 @@
+/* Configurações basicas de fontes, margin e links em geral*/
+
+body {
+	font-family: Helvetica, "Trebuchet MS", sans-serif;
+	background: url(../imagens/fundo2.jpg);
+}
+
+a:link {
+  color: green;
+  text-decoration: none;
+}
+ 
+/*Link já visitado*/
+a:visited {
+  color: blue;
+  text-decoration: none;
+}
+ 
+/*Quando o mouse passa por cima*/
+a:hover {
+  color: pink;
+  text-decoration: none;
+}
+ 
+/*Link ativo/selecionado*/
+a:active {
+  color: yellow;
+  text-decoration: none;
+}
+
+a {
+	cursor: pointer;
+}
+
+/* Configurações textuais*/
+
+@font-face {
+	font-family: fonte;
+	src: url(../fontes/fonte.woff);
+}
+
+h1{	
+	color: white;
+}
+
+p{
+	color: white;
+	display: inline;
+}
+
+
+/*-----------------------------------------*/
+/*-------- Configurações das divs ---------*/
+/*   As divs estão na ordem de ativação com a 
+    intenção de facilitar futuras consultas*/
+
+#navegacao a{
+	float:right;
+ 	text-decoration: none;
+ 	text-transform: uppercase;
+ 	font-size: 0.8em;
+ 	padding: 5px;
+ 	color: white;
+ 	display: block;
+ }
+
+#contato img {
+	width: 45px;
+	height: 30px;
+	display: block;
+	padding: 5px;
+	text-align: left;
+}
+
+#contato h1{
+	text-align: bottom;
+}
+
+#rodape {
+	clear: both;
+	padding: 16px;
+	background: black;
+	color: white;
+	text-align: center;
+}

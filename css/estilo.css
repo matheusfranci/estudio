@@ -1,0 +1,141 @@
+/* Configurações basicas de fontes, margin e links em geral*/
+
+body {
+	font-family: Helvetica, "Trebuchet MS", sans-serif;
+	background: black;
+	margin: 15px;
+}
+/*Link não visitado */
+a:link {
+  color: green;
+  text-decoration: none;
+}
+ 
+/*Link já visitado*/
+a:visited {
+  color: blue;
+  text-decoration: none;
+}
+ 
+/*Quando o mouse passa por cima*/
+a:hover {
+  color: pink;
+  text-decoration: none;
+}
+ 
+/*Link ativo/selecionado*/
+a:active {
+  color: yellow;
+  text-decoration: none;
+}
+
+a {
+	cursor: pointer;
+}
+
+@font-face {
+	font-family: fonte;
+	src: url(../fontes/fonte.woff);
+}
+
+
+/* Configurações textuais*/
+
+h1{	
+	color: white;
+}
+
+p {
+	color: white;
+}
+
+
+/*-----------------------------------------*/
+/*-------- Configurações das divs ---------*/
+/*   As divs estão na ordem de ativação com a 
+    intenção de facilitar futuras consultas*/
+
+#container {
+	background: url(bg-container.png) top center repeat-y;
+	margin: 0 auto;
+	min-width: 740px;
+	max-width: 1180px;
+}
+
+#topo {
+	position: relative;
+	height: 15.4em;
+	background: url(../imagens/estudio7.jpg);
+	min-height: 250px;
+	width: 100%;
+}
+
+#logo {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 80%;
+	height: 250px;
+	z-index: 1;
+}
+
+#navegacao {
+ 	float: right;
+ 	width:24%;
+ }
+
+#navegacao a{
+ 	float: left;
+ 	text-align: inline;
+ 	text-decoration: none;
+ 	text-transform: uppercase;
+ 	font-size: 0.8em;
+ 	padding: 10px;
+ 	color: #8B4513;
+ 	display: block;
+ 	font-family: "fonte";
+ }
+
+#resto {
+	width: 20%;
+	padding-top: 18px;
+}
+
+#conteudo {
+ 	width: 100%;
+ }
+
+#principal {
+ 	width: 63%;
+ 	float: left;
+ }
+
+#lateral {
+ 	width: 34%;
+ 	float: right;
+ }
+
+#lateral h1{
+ 	text-align: center ;
+ }
+
+#galeria {
+ 	padding: 20px;
+ }
+
+#galeria img{
+ 	width: 350px;
+ 	height: 250px;
+ 	padding-top: 10px;
+ }
+
+ #rodape {
+	clear: both;
+	padding: 16px;
+	background: black;
+	color: white;
+	text-align: center;
+}
+
+
+
